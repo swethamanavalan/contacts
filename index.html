@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="css/contactdetails.css" type="text/css" rel="stylesheet">
+    <link href="css/reset.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="outer-layout">
+        <div class="heading">
+            <div class="h-phone">Phone</div>
+            <div class="h-img">
+                <img class="ct-img" src="img/search.png" onclick="searchfor()">
+
+               
+                <img class="ct-img" src="img/addd.png" onclick="add()">
+
+                  <div id="add_item" class="add-item">
+                      <div class="profile-icon male"></div>
+                   <input id="text_" class="text-box" type="text" placeholder="Enter the Name" >
+                   <input id="number_" class="text-box" type="text" placeholder="Enter the PhNo" >
+                 
+                    <input type="button"  class="add-butt" value="Add " onclick="additem()">
+                     <input type="button"  class="add-butt color-" value="cancel " onclick="additem()">
+                </div>
+
+            </div>
+             <input id="text_box" class="textbox" oninput="searchfor()" type="text">
+        </div>
+        <div id="ct_body" class="middle-layout">
+            <div id="ct_" style="display:block;" class="ct">
+                <div id="profile_icon" class="profile-icon male"></div>
+                <div id="ct_details" class="ct-details">
+                    <p id="ct_name" class="ct-name">Mani</p>
+                    <p id="ct_phno" class="ct-phno">9840970180</p>
+                </div>
+            </div>
+
+        </div>
+         <div class="footer">Total <span id="count">23</span> contact(s)</div>
+  
+     <div id="box1" class="box2"></div>
+        
+            <div id="del-pop" class="del">
+                <img class="ct-close" src="img/close.jpg" onclick="document.getElementById('box1').style.display='none';document.getElementById('del-pop').style.display='none'">
+                <input class="yes" type="text" id="name_txt"><br>
+                <input class="yes" type="number" value="Phone Number" id="phone_txt"><br> 
+                <label>Gender:</label> <input type="radio" name="gender" value="Male" id="male_rad">Male
+                <input type="radio" name="gender" value="Female" id="female_rad">Female<br>
+
+                <input class="ct-butt" type="button" value="update" onclick="updateitem()"><br>
+                <input class="ct-butt" type="button" value="Delete" onclick="del()"><br>
+                </div>
+       
+        <div id="del_" class="del"> Do You Want To Delete?
+            <input class="yes" type="button" value="yes" onclick="delcontact()">
+            <input class="yes" type="button" value="no" onclick="nodelcontact()">
+        </div>
+  </div>
+    <script src="js/contactdetails.js"></script>
+</body>
+
+</html>

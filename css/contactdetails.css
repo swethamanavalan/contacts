@@ -1,0 +1,353 @@
+.outer-layout{
+    position: fixed;
+    /* max-width: 300px; */
+    margin: auto;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0;
+    /* min-width: 147px; */
+    /* min-height: 130px; */
+    /* max-height: 592px; */
+    border-radius: 10px;
+    box-shadow: 0 0 15px 0px greenyellow;
+    /* width: 400px; */
+    /* height: 90%**/
+      
+}
+.heading{
+    width: 100%;
+    height: 71px;
+    background-color: greenyellow;
+   
+    animation-name: example;
+    animation-duration: 4s;
+     
+}
+.footer{
+    position: absolute;
+    width: 100%;
+    height: 45px;
+    background-color: greenyellow;
+
+    color: red;
+    font-size: 12px;
+    bottom: 0;
+    padding-top: 4px;
+    padding-left: 16px;
+  
+}
+
+.middle-layout{
+        height: 775px;
+        overflow-y: auto;
+}
+
+.h-phone{
+        padding-left: 14px;
+    padding-top: 12px;
+    font-size: 14px;
+}
+.h-img{
+    width: 63px;
+    height: 36px;
+    background-color: transparent;
+    float: right;
+    padding-top: 4px;
+   
+}
+.ct-img{
+    width: 27px;
+    float: right;
+    margin-right: 4px;
+    height: 25px;
+    padding-bottom: 3px;
+    margin-top: -9px;
+}
+.body
+{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.wd{
+        width: 180px;
+}
+.ct-time{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+
+.close-{
+     position: fixed;
+    width: 17px;
+    height: 18px;
+    float: right;
+    margin-left: 303px;
+    margin-top: 0px;
+    background-color: white;
+}
+
+
+.h-phone{
+   width: 30px;
+    height: 30px;
+    background-color: transparent;
+    margin-left: 16px;
+}
+.h-img{
+    width: 63px;
+    height: 36px;
+    background-color: transparent;
+    float: right;
+    padding-top: 4px;
+   
+}
+.img{
+    width: 36px;
+    height: 30px;
+    background-repeat: no-repeat;
+}
+.us-1{
+      width: 100%;
+    height: 99px;
+    background-color: pink;
+    padding: 3 3 3 3;
+    padding: 3px 3px 3px 3px;
+
+    margin-top: 16px;
+}
+
+.no-click{
+    pointer-events: none;
+}
+
+.field{
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 21%;
+    left: 50%;
+    background-color: gray;
+    top: 50%;
+    /* bottom: 50%; */
+    transform: translate(-50%,-50%);
+}
+.box2{
+ 
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.2);
+    z-index: 1001;
+ 
+}
+.add-item{
+    height: 71%;
+    display: none;
+    position: absolute;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* top: 15%; */
+    left: 7%;
+    top: 30%;
+    width: 85%;
+    height: 27%;
+    height: 35%;
+    padding: 16px;
+    color: darkgreen;
+    z-index: 1002;
+    background-color: lightgoldenrodyellow;
+}
+.img-search{
+        width: 30px;
+    color: black;
+    margin-top: -63px;
+    margin-left: 214px;
+}
+.textbox{
+        width: 211px;
+    margin-top: 7px;
+    margin-left: 21px;
+   background-color:greenyellow;
+    border-bottom: silver;
+}
+.search{
+    position: absolute;
+    top: 21px;
+    left: 16%;
+    /* width: 209px; */
+    /* height: 70%; */
+    padding: 16px;
+    color: rgb(0,175,240);
+    z-index: 1002;
+    font-size: 16px;
+}
+.del{
+    display: none;
+    position: absolute;
+    top: 15%;
+    left: 7%;
+    width: 87%;
+    /* height: 70%; */
+    padding: 16px;
+    border: 27px solid greenyellow;
+    background-color: white;
+    z-index: 1002;
+  
+
+  
+}
+.ct-butt{
+        width: 110px;
+    margin-top: 36px;
+    color: black;
+}
+.ct-butt:hover{
+    background-color:greenyellow;
+}
+.yes{
+    width: 178px;
+    height: 34px;
+    padding: 5px 5px;
+    border-style: outset;
+    border-radius: 4px;
+}
+
+.ct {
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+
+    padding-bottom: 52px;
+
+    margin-bottom: 10px;
+    border-bottom: 2px solid #eee;
+    background-color: white;
+}
+.ct:hover{
+    background-color: greenyellow;
+}
+.ct-img{
+        width: 26px;
+    height: 23px;
+}
+.profile-icon{
+       width: 50px;
+    height: 50px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.image{
+         width: 66px;
+    height: 62px;
+    background-color: #eee;
+    padding: 14px;
+}
+.ct-body{
+        max-width: 335px;
+    min-height: 130px;
+    max-height: 510px;
+    min-width: 147px;
+    background-color: white;
+    overflow: scroll;
+    position: absolute;
+    width: 100%;
+    /*bottom: 27px;*/
+    top: 70px;
+}
+.ct-details{
+       width: 318px;
+    /* height: 63px; */
+    /* background-color: white; */
+    /* margin-left: 0px; */
+    /* float: left; */
+    /* margin-top: -62px; */
+    padding-top: 10px;
+}
+.ct-details:hover{
+    background-color: #eee;
+}
+.ct-name{
+        font-weight: 600;
+    color: gray;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 0;
+}
+.ct-phno{
+      font-size: 11px;
+    color: gray;
+    line-height: 17px;
+    margin-bottom: 0;
+}
+.ct-close{
+    width: 14px;
+    height: 15px;
+    float: right;
+    margin-top: 0px;
+  opacity: 0.3; filter: alpha(opacity=30);
+}
+.ct-close:hover{
+   opacity: 1; filter: alpha(opacity=100);
+}
+.ct-cross{
+    width: 16px;
+    height: 15px;
+    float: right;
+    margin-right: 9px;
+}
+.ct-edit{
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-top: 6px;
+}
+.mg-58{
+    margin-left: 58px;
+}
+
+
+.male{
+    background-image: url('../img/m.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.female{
+    background-image: url('../img/f.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+.add-butt{
+    border-radius: 12px;
+    width: 111px;
+    height: 43px;
+    /* top: 188px; */
+    margin-top: 39px;
+    background-color: yellowgreen;
+    outline: none;
+}
+.text-box{
+    margin-top: 7px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: lightgoldenrodyellow;
+    outline: none;
+    margin-left: 30px;
+}
+@media screen and (max-width: 1209px) and (min-width:500px) {
+   .outer-layout {
+       width:400px;
+       height:790px;
+    }
+}
+.color-{
+    background-color: red;
+}

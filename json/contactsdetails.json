@@ -1,0 +1,51 @@
+{
+      "contacts":[
+    {
+        "name":"Swetha",
+         "number":"7708927273", 
+         "gender":"female", 
+         "image":"female.jpg"
+         
+    },
+
+    {
+        "name":"Manimaran",
+         "number":"9885566778",
+         "gender":"male",
+          "image":"img/male.jpg"
+    },
+
+    {
+        "name":"Vivek", 
+        "number":"9885566778",
+         "gender":"male",
+          "image":"male.jpg"
+    },
+
+    {
+        "name":"Rahul",
+         "number":"9885566778",
+          "gender":"male",
+           "image":"male.jpg"
+    },
+    {
+        "name":"Divya",
+         "number":"9885566778",
+          "gender":"female", 
+          "image":"female.jpg"
+    },
+    {
+        "name":"veenu",
+         "number":"9885566778",
+          "gender":"female", 
+          "image":"female.jpg"
+    },
+    {"name":"Ram", "number":"9885566778", "gender":"male", "image":"male.jpg"},
+
+    {"name":"Suresh", "number":"9885566778", "gender":"male", "image":"male.jpg"},
+    
+    {"name":"Nishanth", "number":"9885566778", "gender":"male", "image":"male.jpg"},
+    {"name":"Narendran", "number":"9885566778", "gender":"male", "image":"male.jpg"},
+    {"name":"Vinoth", "number":"9885566778", "gender":"male", "image":"male.jpg"}
+]
+}
